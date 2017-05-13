@@ -1,13 +1,40 @@
-
 .container{
-	width: 80%;
-	height:100vh;
-
+	width:  80%;
 }
+
 #thread{
 	background-color: lightgrey;
 	height:80vh;
+
 }
-button{
-	float:right;
+.inner{
+	background-color: grey;
+	position: relative;
+	padding-left: 10px;
+}
+.left{
+	margin-right: 50%;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 20px;
+	background-color: red;
+
+}
+.right{
+	margin-left: 50%;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 5px;
+	background-color: blue;
+}
+
+span{
+	font-size: 10px;
+	position:absolute;
+	padding-right: 10px;
+	bottom:0;
+	right:0;
+}
+p{
+	word-break: break-all;
 }
