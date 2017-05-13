@@ -1,18 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta charset="utf-8">
-
-
-
-    <title></title>
-
-
-
-
+    <title>Monologue Chat</title>
 
     <!-- jquery -->
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -22,19 +13,29 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--Page's stylesheet-->
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
+
   <body>
     <div class="container">
-    <div id="thread" class="col-md-12"></div>
-    <textarea class = "form-control" id="message"></textarea>
-    <button id="send">Send</button>
+
+      <h1>Monologue Chat</h1>
+
+      <div id="thread-wrapper-container">
+        <div id="thread-wrapper">
+
+          <div id="thread" class="col-md-12"></div>
+          <div id="noteholder"></div>
+
+        </div>
+      </div>
+
+      <textarea class="form-control" id="message"></textarea>
+      <button id="send" class="btn">Send</button>
+
     </div>
 
-
-
-
-    
-  <script src="js/app.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
